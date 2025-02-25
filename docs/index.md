@@ -174,7 +174,7 @@ Select all the Equipment you want to update in the Area/Section of your choice, 
 </details>
 
 <br>
-### **CCs (Carbon Copies)**
+### **CCs (Contract Communications)**
 
 Create a CC for one or several Equipments, then track its status (Current or Lifted). Pick a date to automatically lift the CC. Remove the date to automatically set the status back to Current. You can filter Equipment list to show only rows associated to a CC with status "Current" in the Dashboard:
 

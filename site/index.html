@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
-        
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="None" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" />
         <title>Tickbook App - Documentation</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/fontawesome.min.css" rel="stylesheet" />
+        <link href="css/brands.min.css" rel="stylesheet" />
+        <link href="css/solid.min.css" rel="stylesheet" />
+        <link href="css/v4-font-face.min.css" rel="stylesheet" />
+        <link href="css/base.css" rel="stylesheet" />
+        <link
+            id="hljs-light"
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css"
+        />
+        <link
+            id="hljs-dark"
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"
+            disabled
+        />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
+        <script>
+            hljs.highlightAll()
+        </script>
     </head>
 
     <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Tickbook App - Documentation</a>
+                <a class="navbar-brand" href="."
+                    >Tickbook App - Documentation</a
+                >
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
-
                     <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                            <a
+                                href="#"
+                                class="nav-link"
+                                data-bs-toggle="modal"
+                                data-bs-target="#mkdocs_search_modal"
+                            >
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -42,338 +58,852 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
+                <div class="col-md-3">
+                    <div
+                        class="navbar-expand-md bs-sidebar hidden-print affix"
+                        role="complementary"
+                    >
+                        <div class="navbar-header">
+                            <button
+                                type="button"
+                                class="navbar-toggler collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#toc-collapse"
+                                title="Table of Contents"
+                            >
+                                <span class="fa fa-angle-down"></span>
+                            </button>
+                        </div>
 
-    
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-bs-level="1"><a href="#user-manual" class="nav-link">User Manual</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#application-workflow" class="nav-link">Application Workflow</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#views-explained" class="nav-link">Views explained</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#bulk-operations-via-file-upload" class="nav-link">Bulk Operations via File Upload</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#notes-for-users" class="nav-link">Notes for Users</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+                        <div
+                            id="toc-collapse"
+                            class="navbar-collapse collapse card bg-body-tertiary"
+                        >
+                            <ul class="nav flex-column">
+                                <li class="nav-item" data-bs-level="1">
+                                    <a href="#user-manual" class="nav-link"
+                                        >User Manual</a
+                                    >
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item" data-bs-level="2">
+                                            <a
+                                                href="#application-workflow"
+                                                class="nav-link"
+                                                >Application Workflow</a
+                                            >
+                                            <ul class="nav flex-column"></ul>
+                                        </li>
+                                        <li class="nav-item" data-bs-level="2">
+                                            <a
+                                                href="#views-explained"
+                                                class="nav-link"
+                                                >Views explained</a
+                                            >
+                                            <ul class="nav flex-column"></ul>
+                                        </li>
+                                        <li class="nav-item" data-bs-level="2">
+                                            <a
+                                                href="#bulk-operations-via-file-upload"
+                                                class="nav-link"
+                                                >Bulk Operations via File
+                                                Upload</a
+                                            >
+                                            <ul class="nav flex-column"></ul>
+                                        </li>
+                                        <li class="nav-item" data-bs-level="2">
+                                            <a
+                                                href="#notes-for-users"
+                                                class="nav-link"
+                                                >Notes for Users</a
+                                            >
+                                            <ul class="nav flex-column"></ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9" role="main">
+                    <h1 id="user-manual">User Manual</h1>
+                    <p><br /></p>
+                    <p>
+                        This application is designed to help you manage
+                        project-related data easily and efficiently.
+                    </p>
+                    <p>
+                        The <strong>core feature</strong> is the edition of the
+                        completion (%) of items of Equipment (Components and/or
+                        Cables). The dashboard contains a summary section in
+                        which you can see the project information and keep track
+                        of its completion:
+                    </p>
+                    <div style="padding: 56.25% 0 0 0; position: relative">
+                        <iframe
+                            src="https://player.vimeo.com/video/1060111523?h=1e6b339d47&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                            style="
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                            "
+                            title="Tickbook App - Main Feature"
+                        ></iframe>
+                    </div>
 
-<h1 id="user-manual">User Manual</h1>
-<p><br></p>
-<p>This application is designed to help you manage project-related data easily and efficiently.</p>
-<p>The <strong>core feature</strong> is the edition of the completion (%) of items of Equipment (Components and/or Cables).
-The dashboard contains a summary section in which you can see the project information and keep track of its completion:</p>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111523?h=1e6b339d47&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Main Feature"></iframe></div>
+                    <p>
+                        <em
+                            >Quick overview of the main feature to track project
+                            progress</em
+                        >
+                    </p>
+                    <p><br /></p>
+                    <hr />
+                    <h2 id="application-workflow">
+                        <strong>Application Workflow</strong>
+                    </h2>
+                    <p><br /></p>
+                    <p>
+                        The application allows you to (in this recommended
+                        order):
+                    </p>
+                    <ul>
+                        <li>Create/open a Project</li>
+                        <li>Manage Components</li>
+                        <li>Manage Templates of Components</li>
+                        <li>
+                            Manage Equipment (made of Templates of Components)
+                        </li>
+                        <li>Optionally add Cables to Equipment</li>
+                        <li>
+                            Update the progress of items of Equipment and Cables
+                            easily
+                        </li>
+                    </ul>
+                    <details>
+                        <summary>
+                            <i
+                                >View Video: Quick overview of the application
+                                workflow 🔊</i
+                            >
+                        </summary>
+                        <div style="padding: 42.86% 0 0 0; position: relative">
+                            <iframe
+                                src="https://player.vimeo.com/video/1060111649?h=896db7be93&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                "
+                                title="Tickbook App - Workflow for New Project"
+                            ></iframe>
+                        </div>
+                    </details>
 
-<p><em>Quick overview of the main feature to track project progress</em></p>
-<p><br></p>
-<hr />
-<h2 id="application-workflow"><strong>Application Workflow</strong></h2>
-<p><br></p>
-<p>The application allows you to (in this recommended order):</p>
-<ul>
-<li>Create/open a Project</li>
-<li>Manage Components</li>
-<li>Manage Templates of Components</li>
-<li>Manage Equipment (made of Templates of Components)</li>
-<li>Optionally add Cables to Equipment</li>
-<li>Update the progress of items of Equipment and Cables easily</li>
-</ul>
-<details>
-  <summary><i>View Video: Quick overview of the application workflow 🔊</i></summary>
-<div style="padding:42.86% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111649?h=896db7be93&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Workflow for New Project"></iframe></div>
-</details>
+                    <p>
+                        Among some extra features: Excel spreadsheets imports,
+                        project and tables data exports, multi-Equipment update,
+                        creating and lifting CCs, Revisions (logs of some
+                        specific project changes and user actions )...
+                    </p>
+                    <blockquote>
+                        <p>
+                            🔴 In each Excel spreadsheet, the required columns
+                            have a red background: you must provide a value for
+                            these fields. Other fields are optional.
+                        </p>
+                    </blockquote>
+                    <p><br /></p>
+                    <hr />
+                    <h2 id="views-explained">
+                        <strong>Views explained</strong>
+                    </h2>
+                    <p><br /></p>
+                    <h3 id="dashboard"><strong>Dashboard</strong></h3>
+                    <p>
+                        This is the main tab of the application, in which you
+                        can track and update the completion of items of
+                        Equipment and get a quick overview of the project
+                        progress with some key metrics in the "Summary" section:
+                    </p>
+                    <p>
+                        <img
+                            src="./img/summary.png"
+                            alt="Summary image"
+                            style="display: flex; justify-content: center"
+                        />
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                The top table (called "Main Table") represents
+                                the Equipment list (with all Components and
+                                Cables grouped by Equipment Reference). Clicking
+                                on a row opens a dialog box that shows the list
+                                of Components and/or Cables for this Equipment,
+                                and you can edit their completion (individually
+                                by clicking on a completion field, or selecting
+                                multiple ones holding <kbd>Ctrl</kbd> or
+                                <kbd>Shift</kbd> and using the form).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The bottom table (called "View Table") helps
+                                visualising data differently based on the
+                                selected view (view by Section groups Equipments
+                                by Section instead of by Ref for example).
+                                Clicking on a row opens a dialog box (except for
+                                views Area and Labour-Material) that shows the
+                                list of Components and/or Cables, but
+                                completions are not editable from there.
+                            </p>
+                        </li>
+                    </ul>
+                    <p>
+                        In these tables, and in most tables in the application,
+                        you can:
+                    </p>
+                    <ul>
+                        <li>
+                            Sort the data by clicking on a column header (hold
+                            <kbd>Shift</kbd> to sort by multiple columns)
+                        </li>
+                        <li>
+                            Filter the data using individual search fields in
+                            each column
+                        </li>
+                        <li>
+                            Temporarily rearrange the order of the columns by
+                            dragging the column headers
+                        </li>
+                        <li>
+                            Temporarily remove a column from the table by
+                            dragging the column header out of the table
+                        </li>
+                        <li>Resize the columns width</li>
+                    </ul>
+                    <blockquote>
+                        <p>
+                            ℹ️ The search field at the top right allows you to
+                            search for a value in every columns directly.
+                        </p>
+                    </blockquote>
+                    <p><br /></p>
+                    <h3 id="components"><strong>Components</strong></h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>Create one Component</strong>: Use the
+                                form to create one Component. For Cable
+                                Components (code "cbs"), three Components are
+                                created at once: the base, the Term and the
+                                Test.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Create several Components</strong>: Use
+                                the relevant spreadsheet to create several
+                                Components at once.
+                            </p>
+                            <blockquote>
+                                <p>
+                                    ℹ️ Cable Components (code "cbs") cannot be
+                                    created that way, you must use the form.
+                                </p>
+                            </blockquote>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Edit Components</strong>: Edit
+                                Components details (or only their Code, if they
+                                are already used in a Template).
+                            </p>
+                            <blockquote>
+                                <p>
+                                    ℹ️ Cable Components (code "cbs") are not
+                                    editable (they will be ignored in the
+                                    "Update Multiple Codes" function described
+                                    just below).
+                                </p>
+                            </blockquote>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Edit Components Codes</strong>: Select
+                                one or several Components (holding
+                                <kbd>Ctrl</kbd> or <kbd>Shift</kbd> ) and change
+                                their Codes all at once using the form.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Delete Components</strong>: Only
+                                possible if they are not used in a Template.
+                            </p>
+                            <blockquote>
+                                <p>
+                                    ℹ️ For Cable Components (code "cbs"), you
+                                    must delete the "base" Component to delete
+                                    the Term and Test ones automatically. Only
+                                    possible if they are not used in the Cable
+                                    Schedule.
+                                </p>
+                            </blockquote>
+                        </li>
+                    </ul>
+                    <details>
+                        <summary><i>View Video: Components Demo</i></summary>
+                        <div style="padding: 56.25% 0 0 0; position: relative">
+                            <iframe
+                                src="https://player.vimeo.com/video/1060111443?h=f13204188e&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                "
+                                title="Tickbook App - Components"
+                            ></iframe>
+                        </div>
+                    </details>
+                    <p><br /></p>
+                    <h3 id="templates"><strong>Templates</strong></h3>
+                    <ul>
+                        <li>
+                            <strong>Create one Template</strong>: Add/remove
+                            Components by clicking on them in each box (you can
+                            also change their order) then use the form to create
+                            a Template with selected Components.
+                        </li>
+                        <li>
+                            <strong>Create multiple Templates</strong>: Use the
+                            relevant spreadsheet to create several Templates.
+                            This will create new Components automatically if
+                            they did not exist already, and optionally create
+                            Equipment if some equipment quantity (EquipQty) is
+                            provided.
+                        </li>
+                        <li>
+                            <strong>Edit Templates</strong>: Add/remove
+                            Components, or change their order (the order in the
+                            Template determines the order in the Equipment
+                            Details dialog box in the Dashboard).
+                        </li>
+                        <li>
+                            <strong>Duplicate Template</strong>: The duplicated
+                            Template will have the same name with an added "x"
+                            at the end.
+                        </li>
+                    </ul>
+                    <details>
+                        <summary><i>View Video: Templates Demo</i></summary>
+                        <div style="padding: 56.25% 0 0 0; position: relative">
+                            <iframe
+                                src="https://player.vimeo.com/video/1060111600?h=390545cff8&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                "
+                                title="Tickbook App - Templates"
+                            ></iframe>
+                        </div>
+                    </details>
+                    <p><br /></p>
+                    <h3 id="equipment"><strong>Equipment</strong></h3>
+                    <blockquote>
+                        <p>
+                            ℹ️ The Equipment list of the project is not visible
+                            here but in the Dashboard, as it is the main source
+                            of data of a project.
+                        </p>
+                    </blockquote>
+                    <ul>
+                        <li>
+                            <strong>Create one Equipment</strong>: Use the form
+                            to create one Equipment (you must have created
+                            Components and Templates). You can see the list of
+                            Components in the selected Template in the upper
+                            section of the page.
+                        </li>
+                        <li>
+                            <strong>Create multiple Equipment</strong>: Use the
+                            relevant spreadsheet to create several Equipments.
+                        </li>
+                    </ul>
+                    <blockquote>
+                        <p>
+                            ℹ️ If the provided quantity EquipQty is higher than
+                            one, it will automatically create several items of
+                            Equipment with the same data, with different numbers
+                            added at the end of the Ref to differentiate them.
+                        </p>
+                    </blockquote>
+                    <ul>
+                        <li>
+                            <strong>Edit one Equipment</strong>: Right click on
+                            the row you want to manually edit in the Equipment
+                            list (Dashboard)
+                        </li>
+                        <li>
+                            <strong
+                                >Edit one field for several Equipments</strong
+                            >: Export "Main table data", add a new column at the
+                            second position in the spreadsheet and give it the
+                            name of the field you want to update (Ref,
+                            Description, Area, Section), then load this file in
+                            the Equipment page.
+                        </li>
+                        <li>
+                            <strong>Delete Equipment</strong>: Right click on
+                            the row you want to delete in the Equipment list
+                            (and optionnally delete the associated Cables too).
+                        </li>
+                        <li>
+                            <strong>Track Completion</strong>: Update completion
+                            percentages for equipment and track progress.
+                        </li>
+                    </ul>
+                    <details>
+                        <summary><i>View Video: Equipment Demo</i></summary>
+                        <div style="padding: 56.25% 0 0 0; position: relative">
+                            <iframe
+                                src="https://player.vimeo.com/video/1060111485?h=8302a8e168&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                "
+                                title="Tickbook App - Equipment"
+                            ></iframe>
+                        </div>
+                    </details>
+                    <p><br /></p>
+                    <h3 id="cable-schedule"><strong>Cable Schedule</strong></h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>Create one Cable</strong>: To create a
+                                Cable you must have created Components with code
+                                "cbs" first, and have created at least one
+                                Equipment too.
+                            </p>
+                            <p>
+                                The LabNorms of the four parts of a Cable are
+                                determined as follows (see example images
+                                below):
+                            </p>
+                            <ul>
+                                <li>
+                                    LabNorm of the "base" cbs Component * Cable
+                                    Length (2 * 15 = 30)
+                                </li>
+                                <li>
+                                    LabNorm of the "Term" cbs Component for the
+                                    A Gland (3)
+                                </li>
+                                <li>
+                                    LabNorm of the "Term" cbs Component for the
+                                    Z Gland (3)
+                                </li>
+                                <li>
+                                    LabNorm of the "Test" cbs Component for the
+                                    Test (4)
+                                    <div
+                                        style="
+                                            display: flex;
+                                            justify-content: center;
+                                        "
+                                    >
+                                        <img
+                                            src="../img/cbs-labnorms.png"
+                                            width="600"
+                                            height="150"
+                                            alt="CBS Components LabNorms image"
+                                        />
+                                        <img
+                                            src="../img/cable-labnorms.png"
+                                            width="310"
+                                            height="150"
+                                            alt="CBS Components LabNorms image"
+                                        />
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Create multiple Cables</strong>: Use the
+                                relevant spreadsheet to create several Cables.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>Edit Cables</strong>: Edit Cables details
+                            (associated Equipment will be automatically
+                            updated).
+                        </li>
+                        <li>
+                            <strong>Edit Cables Completion</strong>: You can
+                            edit the four completion fields of a Cable by
+                            clicking directly on them, as shown in the video
+                            below (they are also editable in the Equipment
+                            Details dialog box). When the completion (Cable %
+                            Complete) is 100%, the Cable is ready to be tested
+                            (yellow background for Test % Comp) and you can also
+                            mark it as installed by a sub-contractor (right
+                            click on the row). When all the values are 100%, the
+                            row turns green which helps you to quickly identify
+                            fully completed Cables.
+                        </li>
+                        <li>
+                            <strong>Delete Cables</strong>: Right click on the
+                            row you want to delete (associated Equipment will be
+                            automatically updated).
+                        </li>
+                        <li>
+                            <strong>Mark Cables as Installed</strong>: Mark
+                            Cables as installed by sub-contractor ("Ddt Cable
+                            Sub-Con Hrs" in Dashboard)
+                        </li>
+                    </ul>
+                    <details>
+                        <summary>
+                            <i>View Video: Cable Schedule Demo</i>
+                        </summary>
+                        <div style="padding: 56.25% 0 0 0; position: relative">
+                            <iframe
+                                src="https://player.vimeo.com/video/1060111351?h=3d25f6cea3&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                "
+                                title="Tickbook App - CableSchedule"
+                            ></iframe>
+                        </div>
+                    </details>
 
-<p>Among some extra features: Excel spreadsheets imports, project and tables data exports, multi-Equipment update, creating and lifting CCs, Revisions (logs of some specific project changes and user actions )...</p>
-<blockquote>
-<p>🔴 In each Excel spreadsheet, the required columns have a red background: you must provide a value for these fields. Other fields are optional.</p>
-</blockquote>
-<p><br></p>
-<hr />
-<h2 id="views-explained"><strong>Views explained</strong></h2>
-<p><br></p>
-<h3 id="dashboard"><strong>Dashboard</strong></h3>
-<p>This is the main tab of the application, in which you can track and update the completion of items of Equipment and get a quick overview of the project progress with some key metrics in the "Summary" section:</p>
-<p><img src="./img/summary.png" alt="Summary image" style="display: flex; justify-content: center;"></p>
-<ul>
-<li>
-<p>The top table (called "Main Table") represents the Equipment list (with all Components and Cables grouped by Equipment Reference).
-    Clicking on a row opens a dialog box that shows the list of Components and/or Cables for this Equipment, and you can edit their completion (individually by clicking on a completion field, or selecting multiple ones holding <kbd>Ctrl</kbd> or <kbd>Shift</kbd> and using the form).</p>
-</li>
-<li>
-<p>The bottom table (called "View Table") helps visualising data differently based on the selected view (view by Section groups Equipments by Section instead of by Ref for example). Clicking on a row opens a dialog box (except for views Area and Labour-Material) that shows the list of Components and/or Cables, but completions are not editable from there.</p>
-</li>
-</ul>
-<p>In these tables, and in most tables in the application, you can:</p>
-<ul>
-<li>Sort the data by clicking on a column header (hold <kbd>Shift</kbd> to sort by multiple columns)</li>
-<li>Filter the data using individual search fields in each column</li>
-<li>Temporarily rearrange the order of the columns by dragging the column headers</li>
-<li>Temporarily remove a column from the table by dragging the column header out of the table</li>
-<li>Resize the columns width</li>
-</ul>
-<blockquote>
-<p>ℹ️ The search field at the top right allows you to search for a value in every columns directly.</p>
-</blockquote>
-<p><br></p>
-<h3 id="components"><strong>Components</strong></h3>
-<ul>
-<li>
-<p><strong>Create one Component</strong>: Use the form to create one Component. For Cable Components (code "cbs"), three Components are created at once: the base, the Term and the Test.</p>
-</li>
-<li>
-<p><strong>Create several Components</strong>: Use the relevant spreadsheet to create several Components at once.</p>
-<blockquote>
-<p>ℹ️ Cable Components (code "cbs") cannot be created that way, you must use the form.</p>
-</blockquote>
-</li>
-<li>
-<p><strong>Edit Components</strong>: Edit Components details (or only their Code, if they are already used in a Template).</p>
-<blockquote>
-<p>ℹ️ Cable Components (code "cbs") are not editable (they will be ignored in the "Update Multiple Codes" function described just below).</p>
-</blockquote>
-</li>
-<li>
-<p><strong>Edit Components Codes</strong>: Select one or several Components (holding <kbd>Ctrl</kbd> or <kbd>Shift</kbd> ) and change their Codes all at once using the form.</p>
-</li>
-<li>
-<p><strong>Delete Components</strong>: Only possible if they are not used in a Template.</p>
-<blockquote>
-<p>ℹ️ For Cable Components (code "cbs"), you must delete the "base" Component to delete the Term and Test ones automatically. Only possible if they are not used in the Cable Schedule.</p>
-</blockquote>
-</li>
-</ul>
-<details>
-  <summary><i>View Video: Components Demo</i></summary>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111443?h=f13204188e&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Components"></iframe></div>
-</details>
-<p><br></p>
-<h3 id="templates"><strong>Templates</strong></h3>
-<ul>
-<li><strong>Create one Template</strong>: Add/remove Components by clicking on them in each box (you can also change their order) then use the form to create a Template with selected Components.</li>
-<li><strong>Create multiple Templates</strong>: Use the relevant spreadsheet to create several Templates. This will create new Components automatically if they did not exist already, and optionally create Equipment if some equipment quantity (EquipQty) is provided.</li>
-<li><strong>Edit Templates</strong>: Add/remove Components, or change their order (the order in the Template determines the order in the Equipment Details dialog box in the Dashboard).</li>
-<li><strong>Duplicate Template</strong>: The duplicated Template will have the same name with an added "x" at the end.</li>
-</ul>
-<details>
-  <summary><i>View Video: Templates Demo</i></summary>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111600?h=390545cff8&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Templates"></iframe></div>
-</details>
-<p><br></p>
-<h3 id="equipment"><strong>Equipment</strong></h3>
-<blockquote>
-<p>ℹ️ The Equipment list of the project is not visible here but in the Dashboard, as it is the main source of data of a project.</p>
-</blockquote>
-<ul>
-<li><strong>Create one Equipment</strong>: Use the form to create one Equipment (you must have created Components and Templates). You can see the list of Components in the selected Template in the upper section of the page.</li>
-<li><strong>Create multiple Equipment</strong>: Use the relevant spreadsheet to create several Equipments.</li>
-</ul>
-<blockquote>
-<p>ℹ️ If the provided quantity EquipQty is higher than one, it will automatically create several items of Equipment with the same data, with different numbers added at the end of the Ref to differentiate them.</p>
-</blockquote>
-<ul>
-<li><strong>Edit one Equipment</strong>: Right click on the row you want to manually edit in the Equipment list (Dashboard)</li>
-<li><strong>Edit one field for several Equipments</strong>: Export "Main table data", add a new column at the second position in the spreadsheet and give it the name of the field you want to update (Ref, Description, Area, Section), then load this file in the Equipment page.</li>
-<li><strong>Delete Equipment</strong>: Right click on the row you want to delete in the Equipment list (and optionnally delete the associated Cables too).</li>
-<li><strong>Track Completion</strong>: Update completion percentages for equipment and track progress.</li>
-</ul>
-<details>
-  <summary><i>View Video: Equipment Demo</i></summary>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111485?h=8302a8e168&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Equipment"></iframe></div>
-</details>
-<p><br></p>
-<h3 id="cable-schedule"><strong>Cable Schedule</strong></h3>
-<ul>
-<li>
-<p><strong>Create one Cable</strong>: To create a Cable you must have created Components with code "cbs" first, and have created at least one Equipment too.</p>
-<p>The LabNorms of the four parts of a Cable are determined as follows (see example images below):</p>
-<ul>
-<li>LabNorm of the "base" cbs Component * Cable Length (2 * 15 = 30)</li>
-<li>LabNorm of the "Term" cbs Component for the A Gland (3)</li>
-<li>LabNorm of the "Term" cbs Component for the Z Gland (3)</li>
-<li>LabNorm of the "Test" cbs Component for the Test (4)
-<div style="display: flex; justify-content: center;">
-    <img src="../img/cbs-labnorms.png" width="600" height="150" alt="CBS Components LabNorms image">
-    <img src="../img/cable-labnorms.png" width="310" height="150" alt="CBS Components LabNorms image">
-</div></li>
-</ul>
-</li>
-<li>
-<p><strong>Create multiple Cables</strong>: Use the relevant spreadsheet to create several Cables.</p>
-</li>
-<li><strong>Edit Cables</strong>: Edit Cables details (associated Equipment will be automatically updated).</li>
-<li><strong>Edit Cables Completion</strong>: You can edit the four completion fields of a Cable by clicking directly on them, as shown in the video below (they are also editable in the Equipment Details dialog box). When the completion (Cable % Complete) is 100%, the Cable is ready to be tested (yellow background for Test % Comp) and you can also mark it as installed by a sub-contractor (right click on the row). When all the values are 100%, the row turns green which helps you to quickly identify fully completed Cables.</li>
-<li><strong>Delete Cables</strong>: Right click on the row you want to delete (associated Equipment will be automatically updated).</li>
-<li><strong>Mark Cables as Installed</strong>: Mark Cables as installed by sub-contractor ("Ddt Cable Sub-Con Hrs" in Dashboard)</li>
-</ul>
-<details>
-  <summary><i>View Video: Cable Schedule Demo</i></summary>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111351?h=3d25f6cea3&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - CableSchedule"></iframe></div>
-</details>
+                    <p><br /></p>
+                    <h3 id="exporting-data"><strong>Exporting Data</strong></h3>
+                    <p>Export project data such as:</p>
+                    <ul>
+                        <li>
+                            Main table data of the Dashboard (Equipment list)
+                        </li>
+                        <li>
+                            Bottom table data of the Dashboard, based on the
+                            current selected view
+                        </li>
+                        <li>Full project data</li>
+                    </ul>
+                    <p><br /></p>
+                    <h3 id="revisions"><strong>Revisions</strong></h3>
+                    <p>
+                        Track main changes made to the project and maintain a
+                        history of updates. You can create a Revision when
+                        creating an Equipment, or assign a new Revision to an
+                        existing Equipment when you edit it. Some important
+                        project changes automatically create a Revision, such as
+                        operations on Equipment, or spreadsheets imports. The
+                        most recent Revision that is not 't.b.a' is displayed in
+                        the Summary section.
+                    </p>
+                    <p><br /></p>
+                    <h3 id="multi-update"><strong>Multi-Update</strong></h3>
+                    <p>
+                        Select all the Equipment you want to update in the
+                        Area/Section of your choice, add a completion value to
+                        the Components Codes, and submit the form to update all
+                        the corresponding items at once.
+                    </p>
+                    <details>
+                        <summary><i>View Video: Multi-Update Demo</i></summary>
+                        <div style="padding: 56.25% 0 0 0; position: relative">
+                            <iframe
+                                src="https://player.vimeo.com/video/1060111545?h=6a0ec6f8ac&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                "
+                                title="Tickbook App - Multi-Update"
+                            ></iframe>
+                        </div>
+                    </details>
 
-<p><br></p>
-<h3 id="exporting-data"><strong>Exporting Data</strong></h3>
-<p>Export project data such as:</p>
-<ul>
-<li>Main table data of the Dashboard (Equipment list)</li>
-<li>Bottom table data of the Dashboard, based on the current selected view</li>
-<li>Full project data</li>
-</ul>
-<p><br></p>
-<h3 id="revisions"><strong>Revisions</strong></h3>
-<p>Track main changes made to the project and maintain a history of updates. You can create a Revision when creating an Equipment, or assign a new Revision to an existing Equipment when you edit it. Some important project changes automatically create a Revision, such as operations on Equipment, or spreadsheets imports. The most recent Revision that is not 't.b.a' is displayed in the Summary section.</p>
-<p><br></p>
-<h3 id="multi-update"><strong>Multi-Update</strong></h3>
-<p>Select all the Equipment you want to update in the Area/Section of your choice, add a completion value to the Components Codes, and submit the form to update all the corresponding items at once.</p>
-<details>
-  <summary><i>View Video: Multi-Update Demo</i></summary>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111545?h=6a0ec6f8ac&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Multi-Update"></iframe></div>
-</details>
+                    <p><br /></p>
+                    <h3 id="ccs-contract-communications">
+                        <strong>CCs (Contract Communications)</strong>
+                    </h3>
+                    <p>
+                        Create a CC for one or several Equipments, then track
+                        its status (Current or Lifted). Pick a date to
+                        automatically lift the CC. Remove the date to
+                        automatically set the status back to Current. You can
+                        filter Equipment list to show only rows associated to a
+                        CC with status "Current" in the Dashboard:
+                    </p>
+                    <details>
+                        <summary><i>View Video: CCs Demo</i></summary>
+                        <div style="padding: 56.25% 0 0 0; position: relative">
+                            <iframe
+                                src="https://player.vimeo.com/video/1060111396?h=45b4705617&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                "
+                                title="Tickbook App - CCs"
+                            ></iframe>
+                        </div>
+                    </details>
 
-<p><br></p>
-<h3 id="ccs-carbon-copies"><strong>CCs (Carbon Copies)</strong></h3>
-<p>Create a CC for one or several Equipments, then track its status (Current or Lifted). Pick a date to automatically lift the CC. Remove the date to automatically set the status back to Current. You can filter Equipment list to show only rows associated to a CC with status "Current" in the Dashboard:</p>
-<details>
-  <summary><i>View Video: CCs Demo</i></summary>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111396?h=45b4705617&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - CCs"></iframe></div>
-</details>
-
-<p><br></p>
-<h3 id="tender-sections"><strong>Tender Sections</strong></h3>
-<p>See all the tender sections of the project, their individual hours, and the total. By default when creating an Equipment, its tender section is set to "t.b.a". You can set a new value when updating Equipment (right click on a row in the main table of the Dashboard). Setting it back to "t.b.a" will remove its hours from the tender sections total.</p>
-<p><br></p>
-<h3 id="projects"><strong>Projects</strong></h3>
-<ul>
-<li>Open an existing Project or create a new one. Always ensure that the correct project is opened before making any updates or changes (the app automatically loads the last opened project).</li>
-</ul>
-<blockquote>
-<p>ℹ Except for Codes, all the data you can then see in the application belongs only to the opened Project.</p>
-</blockquote>
-<p><br></p>
-<h3 id="codes"><strong>Codes</strong></h3>
-<p>Displays the full list of Codes, with their corresponding name. You can also create a new Code if needed.</p>
-<p><br></p>
-<hr />
-<h2 id="bulk-operations-via-file-upload"><strong>Bulk Operations via File Upload</strong></h2>
-<p><br></p>
-<p>The application supports bulk creation and/or updates (see above). To use this feature:</p>
-<ol>
-<li>Download the provided spreadsheet template.</li>
-<li>Fill in the required fields (columns with a red header are required).</li>
-<li>Upload the completed file in the relevant section of the application.</li>
-</ol>
-<p><br></p>
-<hr />
-<h2 id="notes-for-users"><strong>Notes for Users</strong></h2>
-<p><br></p>
-<ul>
-<li>Always ensure that you select the correct project before making any updates or changes.</li>
-<li>Use the export feature to back-up important project data regularly.</li>
-<li>If you encounter errors during bulk uploads, review the error messages provided to identify and fix issues (hover the notification with the mouse to see the details).</li>
-</ul>
-<p>For further assistance on how to use the application or on its development or maintenance, please contact:
-<a href="mailto:vincent.seube@b-gen.co.uk">vincent.seube@b-gen.co.uk</a></p>
-<p>For any authentication related issues or server errors, please contact the IT department.</p></div>
+                    <p><br /></p>
+                    <h3 id="tender-sections">
+                        <strong>Tender Sections</strong>
+                    </h3>
+                    <p>
+                        See all the tender sections of the project, their
+                        individual hours, and the total. By default when
+                        creating an Equipment, its tender section is set to
+                        "t.b.a". You can set a new value when updating Equipment
+                        (right click on a row in the main table of the
+                        Dashboard). Setting it back to "t.b.a" will remove its
+                        hours from the tender sections total.
+                    </p>
+                    <p><br /></p>
+                    <h3 id="projects"><strong>Projects</strong></h3>
+                    <ul>
+                        <li>
+                            Open an existing Project or create a new one. Always
+                            ensure that the correct project is opened before
+                            making any updates or changes (the app automatically
+                            loads the last opened project).
+                        </li>
+                    </ul>
+                    <blockquote>
+                        <p>
+                            ℹ Except for Codes, all the data you can then see in
+                            the application belongs only to the opened Project.
+                        </p>
+                    </blockquote>
+                    <p><br /></p>
+                    <h3 id="codes"><strong>Codes</strong></h3>
+                    <p>
+                        Displays the full list of Codes, with their
+                        corresponding name. You can also create a new Code if
+                        needed.
+                    </p>
+                    <p><br /></p>
+                    <hr />
+                    <h2 id="bulk-operations-via-file-upload">
+                        <strong>Bulk Operations via File Upload</strong>
+                    </h2>
+                    <p><br /></p>
+                    <p>
+                        The application supports bulk creation and/or updates
+                        (see above). To use this feature:
+                    </p>
+                    <ol>
+                        <li>Download the provided spreadsheet template.</li>
+                        <li>
+                            Fill in the required fields (columns with a red
+                            header are required).
+                        </li>
+                        <li>
+                            Upload the completed file in the relevant section of
+                            the application.
+                        </li>
+                    </ol>
+                    <p><br /></p>
+                    <hr />
+                    <h2 id="notes-for-users">
+                        <strong>Notes for Users</strong>
+                    </h2>
+                    <p><br /></p>
+                    <ul>
+                        <li>
+                            Always ensure that you select the correct project
+                            before making any updates or changes.
+                        </li>
+                        <li>
+                            Use the export feature to back-up important project
+                            data regularly.
+                        </li>
+                        <li>
+                            If you encounter errors during bulk uploads, review
+                            the error messages provided to identify and fix
+                            issues (hover the notification with the mouse to see
+                            the details).
+                        </li>
+                    </ul>
+                    <p>
+                        For further assistance on how to use the application or
+                        on its development or maintenance, please contact:
+                        <a href="mailto:vincent.seube@b-gen.co.uk"
+                            >vincent.seube@b-gen.co.uk</a
+                        >
+                    </p>
+                    <p>
+                        For any authentication related issues or server errors,
+                        please contact the IT department.
+                    </p>
+                </div>
             </div>
         </div>
 
         <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+            <hr />
+            <p>
+                Documentation built with
+                <a href="https://www.mkdocs.org/">MkDocs</a>.
+            </p>
         </footer>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+                shortcuts = { help: 191, next: 78, previous: 80, search: 83 }
         </script>
         <script src="js/base.js"></script>
         <script src="search/main.js"></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+        <div
+            class="modal"
+            id="mkdocs_search_modal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="searchModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="searchModalLabel">
+                            Search
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
                     </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter your
+                            search terms below.
+                        </p>
+                        <form>
+                            <div class="form-group">
+                                <input
+                                    type="search"
+                                    class="form-control"
+                                    placeholder="Search..."
+                                    id="mkdocs-search-query"
+                                    title="Type search term here"
+                                />
+                            </div>
+                        </form>
+                        <div
+                            id="mkdocs-search-results"
+                            data-no-results-text="No results found"
+                        ></div>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-
+        <div
+            class="modal"
+            id="mkdocs_keyboard_modal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="keyboardModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="keyboardModalLabel">
+                            Keyboard Shortcuts
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 20%">Keys</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="help shortcut"><kbd>?</kbd></td>
+                                    <td>Open this help</td>
+                                </tr>
+                                <tr>
+                                    <td class="next shortcut"><kbd>n</kbd></td>
+                                    <td>Next page</td>
+                                </tr>
+                                <tr>
+                                    <td class="prev shortcut"><kbd>p</kbd></td>
+                                    <td>Previous page</td>
+                                </tr>
+                                <tr>
+                                    <td class="search shortcut">
+                                        <kbd>s</kbd>
+                                    </td>
+                                    <td>Search</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-02-25 16:48:53.378205+00:00
+Build Date UTC : 2025-02-25 17:02:44.003525+00:00
 -->
