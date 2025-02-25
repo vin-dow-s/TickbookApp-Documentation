@@ -140,7 +140,7 @@ In these tables, and in most tables in the application, you can:
     -   LabNorm of the "Term" cbs Component for the A Gland (3)
     -   LabNorm of the "Term" cbs Component for the Z Gland (3)
     -   LabNorm of the "Test" cbs Component for the Test (4)
-    <div style="display: flex; justify-content: center;">
+    <div>
         <img src="./img/cbs-labnorms.png" width="600" height="150" alt="CBS Components LabNorms image">
         <img src="./img/cable-labnorms.png" width="310" height="150" alt="CBS Components LabNorms image">
     </div>
