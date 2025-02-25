@@ -44,6 +44,7 @@ Among some extra features: Excel spreadsheets imports, full project and Dashboar
 ## **Views explained**
 
 <br>
+
 ### **Dashboard**
 
 This is the main tab of the application, in which you can track and update the completion of items of Equipment and get a quick overview of the project progress with some key metrics in the "Summary" section:
@@ -88,6 +89,7 @@ In these tables, and in most tables in the application, you can:
   <summary><i>View Video: Components Demo</i></summary>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111443?h=f13204188e&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Components"></iframe></div>
 </details>
+
 <br>
 
 ### **Templates**
@@ -104,6 +106,7 @@ In these tables, and in most tables in the application, you can:
   <summary><i>View Video: Templates Demo</i></summary>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111600?h=390545cff8&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Templates"></iframe></div>
 </details>
+
 <br>
 
 ### **Equipment**
@@ -128,6 +131,7 @@ In these tables, and in most tables in the application, you can:
   <summary><i>View Video: Equipment Demo</i></summary>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111485?h=8302a8e168&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Equipment"></iframe></div>
 </details>
+
 <br>
 
 ### **Cable Schedule**
@@ -141,7 +145,7 @@ In these tables, and in most tables in the application, you can:
     -   LabNorm of the "Term" cbs Component for the Z Gland (3)
     -   LabNorm of the "Test" cbs Component for the Test (4)
     <div>
-        <img src="./img/cbs-labnorms.png" width="600" height="150" alt="CBS Components LabNorms image">
+        <img src="./img/cbs-labnorms.png" width="500" height="150" alt="CBS Components LabNorms image">
         <img src="./img/cable-labnorms.png" width="310" height="150" alt="CBS Components LabNorms image">
     </div>
 
@@ -161,6 +165,7 @@ In these tables, and in most tables in the application, you can:
 </details>
 
 <br>
+
 ### **Exporting Data**
 
 Export project data such as:
@@ -170,11 +175,13 @@ Export project data such as:
 -   Full project data
 
 <br>
+
 ### **Revisions**
 
 Track main changes made to the project and maintain a history of updates. You can create a Revision when creating an Equipment, or assign a new Revision to an existing Equipment when you edit it. Some important project changes automatically create a Revision, such as operations on Equipment, or spreadsheets imports. The most recent Revision that is not 't.b.a' is displayed in the Summary section.
 
 <br>
+
 ### **Multi-Update**
 
 Select all the Equipment you want to update in the Area/Section of your choice, add a completion value to the Components Codes, and submit the form to update all the corresponding items at once.
@@ -185,6 +192,7 @@ Select all the Equipment you want to update in the Area/Section of your choice, 
 </details>
 
 <br>
+
 ### **CCs (Contract Communications)**
 
 Create a CC for one or several Equipments, then track its status (Current or Lifted). Pick a date to automatically lift the CC. Remove the date to automatically set the status back to Current. You can filter Equipment list to show only rows associated to a CC with status "Current" in the Dashboard:
@@ -195,11 +203,13 @@ Create a CC for one or several Equipments, then track its status (Current or Lif
 </details>
 
 <br>
+
 ### **Tender Sections**
 
 See all the tender sections of the project, their individual hours, and the total. By default when creating an Equipment, its tender section is set to "t.b.a". You can set a new value when updating Equipment (right click on a row in the main table of the Dashboard). Setting it back to "t.b.a" will remove its hours from the tender sections total.
 
 <br>
+
 ### **Projects**
 
 Open an existing Project or create a new one. Always ensure that the correct project is opened before making any updates or changes (the app automatically loads the last opened project).
@@ -207,6 +217,7 @@ Open an existing Project or create a new one. Always ensure that the correct pro
 > ℹ Except for Codes, all the data you can then see in the application belongs only to the opened Project.
 
 <br>
+
 ### **Codes**
 
 Displays the full list of Codes, with their corresponding name. You can also create a new Code if needed.
