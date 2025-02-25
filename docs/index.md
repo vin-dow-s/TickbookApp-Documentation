@@ -93,8 +93,11 @@ In these tables, and in most tables in the application, you can:
 ### **Templates**
 
 -   **Create one Template**: Add/remove Components by clicking on them in each box (you can also change their order) then use the form to create a Template with selected Components.
+
 -   **Create multiple Templates**: Use the relevant spreadsheet to create several Templates. This will create new Components automatically if they did not exist already, and optionally create Equipment if some equipment quantity (EquipQty) is provided.
+
 -   **Edit Templates**: Add/remove Components, or change their order (the order in the Template determines the order in the Equipment Details dialog box in the Dashboard).
+
 -   **Duplicate Template**: The duplicated Template will have the same name with an added "x" at the end.
 
 <details>
@@ -108,13 +111,17 @@ In these tables, and in most tables in the application, you can:
 > ℹ️ The Equipment list of the project is not visible here but in the Dashboard, as it is the main source of data of a project.
 
 -   **Create one Equipment**: Use the form to create one Equipment (you must have created Components and Templates). You can see the list of Components in the selected Template in the upper section of the page.
+
 -   **Create multiple Equipment**: Use the relevant spreadsheet to create several Equipments.
 
-> ℹ️ If the provided quantity EquipQty is higher than one, it will automatically create several items of Equipment with the same data, with different numbers added at the end of the Ref to differentiate them.
+    > ℹ️ If the provided quantity EquipQty is higher than one, it will automatically create several items of Equipment with the same data, with different numbers added at the end of the Ref to differentiate them.
 
 -   **Edit one Equipment**: Right click on the row you want to manually edit in the Equipment list (Dashboard)
+
 -   **Edit one field for several Equipments**: Export "Main table data", add a new column at the second position in the spreadsheet and give it the name of the field you want to update (Ref, Description, Area, Section), then load this file in the Equipment page.
+
 -   **Delete Equipment**: Right click on the row you want to delete in the Equipment list (and optionnally delete the associated Cables too).
+
 -   **Track Completion**: Update completion percentages for equipment and track progress.
 
 <details>
@@ -139,9 +146,13 @@ In these tables, and in most tables in the application, you can:
     </div>
 
 -   **Create multiple Cables**: Use the relevant spreadsheet to create several Cables.
+
 -   **Edit Cables**: Edit Cables details (associated Equipment will be automatically updated).
+
 -   **Edit Cables Completion**: You can edit the four completion fields of a Cable by clicking directly on them, as shown in the video below (they are also editable in the Equipment Details dialog box). When the completion (Cable % Complete) is 100%, the Cable is ready to be tested (yellow background for Test % Comp) and you can also mark it as installed by a sub-contractor (right click on the row). When all the values are 100%, the row turns green which helps you to quickly identify fully completed Cables.
+
 -   **Delete Cables**: Right click on the row you want to delete (associated Equipment will be automatically updated).
+
 -   **Mark Cables as Installed**: Mark Cables as installed by sub-contractor ("Ddt Cable Sub-Con Hrs" in Dashboard)
 
 <details>
@@ -191,7 +202,7 @@ See all the tender sections of the project, their individual hours, and the tota
 <br>
 ### **Projects**
 
--   Open an existing Project or create a new one. Always ensure that the correct project is opened before making any updates or changes (the app automatically loads the last opened project).
+Open an existing Project or create a new one. Always ensure that the correct project is opened before making any updates or changes (the app automatically loads the last opened project).
 
 > ℹ Except for Codes, all the data you can then see in the application belongs only to the opened Project.
 
