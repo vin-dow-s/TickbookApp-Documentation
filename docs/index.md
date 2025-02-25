@@ -26,14 +26,14 @@ The application allows you to (in this recommended order):
 -   Manage Templates of Components
 -   Manage Equipment (made of Templates of Components)
 -   Optionally add Cables to Equipment
--   Update the progress of items of Equipment and Cables easily
+-   Update the progress of items of Equipment (Components/Cables) easily
 
 <details>
   <summary><i>View Video: Quick overview of the application workflow 🔊</i></summary>
 <div style="padding:42.86% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1060111649?h=896db7be93&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tickbook App - Workflow for New Project"></iframe></div>
 </details>
 
-Among some extra features: Excel spreadsheets imports, project and tables data exports, multi-Equipment update, creating and lifting CCs, Revisions (logs of some specific project changes and user actions )...
+Among some extra features: Excel spreadsheets imports, full project and Dashboard tables data exports (Excel spreadsheets), multi-Equipment update, creating and lifting CCs, Revisions (logs of some specific project changes and user actions )...
 
 > 🔴 In each Excel spreadsheet, the required columns have a red background: you must provide a value for these fields. Other fields are optional.
 
